@@ -1,0 +1,7 @@
+E:\Univer\3 Курс\PE\Wallet_test\Wallet.Tests\bin\Debug\Wallet.Tests.dll
+E:\Univer\3 Курс\PE\Wallet_test\Wallet.Tests\bin\Debug\Wallet.Tests.pdb
+E:\Univer\3 Курс\PE\Wallet_test\Wallet.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+E:\Univer\3 Курс\PE\Wallet_test\Wallet.Tests\bin\Debug\ru\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+E:\Univer\3 Курс\PE\Wallet_test\Wallet.Tests\obj\Debug\Wallet.Tests.csprojResolveAssemblyReference.cache
+E:\Univer\3 Курс\PE\Wallet_test\Wallet.Tests\obj\Debug\Wallet.Tests.dll
+E:\Univer\3 Курс\PE\Wallet_test\Wallet.Tests\obj\Debug\Wallet.Tests.pdb
