@@ -4,3 +4,9 @@ E:\Univer\3 Курс\PE\Wallet_test\Wallet_test\bin\Debug\Wallet_test.pdb
 E:\Univer\3 Курс\PE\Wallet_test\Wallet_test\obj\Debug\Wallet_test.csprojResolveAssemblyReference.cache
 E:\Univer\3 Курс\PE\Wallet_test\Wallet_test\obj\Debug\Wallet_test.exe
 E:\Univer\3 Курс\PE\Wallet_test\Wallet_test\obj\Debug\Wallet_test.pdb
+C:\Users\krenog\Documents\GitHub\Wallet\Wallet_test\Wallet_test\bin\Debug\Wallet_test.exe.config
+C:\Users\krenog\Documents\GitHub\Wallet\Wallet_test\Wallet_test\obj\Debug\Wallet_test.exe
+C:\Users\krenog\Documents\GitHub\Wallet\Wallet_test\Wallet_test\obj\Debug\Wallet_test.pdb
+C:\Users\krenog\Documents\GitHub\Wallet\Wallet_test\Wallet_test\bin\Debug\Wallet_test.exe
+C:\Users\krenog\Documents\GitHub\Wallet\Wallet_test\Wallet_test\bin\Debug\Wallet_test.pdb
+C:\Users\krenog\Documents\GitHub\Wallet\Wallet_test\Wallet_test\obj\Debug\Wallet_test.csprojResolveAssemblyReference.cache

@@ -5,3 +5,12 @@ E:\Univer\3 Курс\PE\Wallet_test\Wallet.Tests\bin\Debug\ru\Microsoft.VisualSt
 E:\Univer\3 Курс\PE\Wallet_test\Wallet.Tests\obj\Debug\Wallet.Tests.csprojResolveAssemblyReference.cache
 E:\Univer\3 Курс\PE\Wallet_test\Wallet.Tests\obj\Debug\Wallet.Tests.dll
 E:\Univer\3 Курс\PE\Wallet_test\Wallet.Tests\obj\Debug\Wallet.Tests.pdb
+C:\Users\krenog\Documents\GitHub\Wallet\Wallet_test\Wallet.Tests\bin\Debug\Wallet.Tests.dll
+C:\Users\krenog\Documents\GitHub\Wallet\Wallet_test\Wallet.Tests\bin\Debug\Wallet.Tests.pdb
+C:\Users\krenog\Documents\GitHub\Wallet\Wallet_test\Wallet.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\krenog\Documents\GitHub\Wallet\Wallet_test\Wallet.Tests\bin\Debug\Wallet_test.exe
+C:\Users\krenog\Documents\GitHub\Wallet\Wallet_test\Wallet.Tests\bin\Debug\Wallet_test.pdb
+C:\Users\krenog\Documents\GitHub\Wallet\Wallet_test\Wallet.Tests\bin\Debug\ru\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+C:\Users\krenog\Documents\GitHub\Wallet\Wallet_test\Wallet.Tests\obj\Debug\Wallet.Tests.csprojResolveAssemblyReference.cache
+C:\Users\krenog\Documents\GitHub\Wallet\Wallet_test\Wallet.Tests\obj\Debug\Wallet.Tests.dll
+C:\Users\krenog\Documents\GitHub\Wallet\Wallet_test\Wallet.Tests\obj\Debug\Wallet.Tests.pdb
