@@ -43,6 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Bank_plub.cs" />
+    <Compile Include="MoneyPrinter.cs" />
+    <Compile Include="MoneyPrinter_plub.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Wallet.cs" />

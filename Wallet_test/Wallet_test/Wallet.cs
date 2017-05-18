@@ -10,22 +10,26 @@ namespace Wallet_test
 {
    public class Wallet
     {
-        Hashtable wall = new Hashtable();
+       public Hashtable wall = new Hashtable();
         Bank bank;
-        public Wallet(Bank n1){
+        MoneyPrinter printer;
+        public Wallet(Bank n1, MoneyPrinter n2){
             bank = n1;
+            printer = n2;
             }
    
         public void addMoney(string n, int amount)
         {
             if (wall[n] == null)
             {
-                wall.Add(n, amount);
 
+                wall.Add(n, amount);
             }
             else {
                 wall[n] = (int)wall[n]+ amount;
             }
+
+            printer.print("Add", n, amount.ToString());
 
         }
         int tryremov(string n, int amount) {
@@ -50,10 +54,11 @@ namespace Wallet_test
             catch(OverflowException e) {
                     
             }
+            printer.print("Remove", n, amount.ToString());
 
         }
         public int getMoney(string n) {
-            if (wall[n] == null)
+            if (wall[n] != null)
             {
                 return (int)wall[n];
             }
@@ -97,7 +102,7 @@ namespace Wallet_test
 
 
     public class Bank {
-        Hashtable curse = new Hashtable();
+        public Hashtable curse = new Hashtable();
         public Bank() {
             //RUB, USD, GBP
             curse.Add("RUBUSD", 20);
@@ -109,16 +114,19 @@ namespace Wallet_test
 
         }
 
-        public int convert(int amount, string n1, string n2) {
+        public int convert(int amount, string n1, string n2)
+        {
             Random a = new Random();
-            //  int rnd = a.Next(100, 120);
+             int rnd = a.Next(80, 120);
             string str = n1 + n2;
             int l1 = (int)curse[str];
             //int rnd = 100;
-            //double m1 = (double)curse[n1 + n2];
-            int kek = l1 * amount;
-            return kek/1000;
-
+            int m1 = (int)curse[n1 + n2];
+            int kek = m1 * (rnd / 100) * amount;
+            return kek / 1000;
         }
     }
+    
+    
+        
 }
