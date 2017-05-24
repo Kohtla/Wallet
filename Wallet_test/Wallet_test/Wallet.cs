@@ -12,7 +12,7 @@ namespace Wallet_test
     {
        public Hashtable wall = new Hashtable();
         Bank bank;
-        MoneyPrinter printer;
+        public MoneyPrinter printer;
         public Wallet(Bank n1, MoneyPrinter n2){
             bank = n1;
             printer = n2;

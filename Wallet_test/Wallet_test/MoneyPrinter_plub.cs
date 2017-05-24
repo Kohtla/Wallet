@@ -8,11 +8,11 @@ namespace Wallet_test
 {
     public class MoneyPrinter_plub : MoneyPrinter
     {
-        private string printed { get; set; }
+        public string printed = "";
 
-        public string print(string ops, string curr, string am)
+        public void print(string ops, string curr, string am)
         {
-            printed = ops + curr +am;
+            printed = "# - " + ops + " - валюта: " + curr + ", в количестве: " + am;
         }
     }
 }

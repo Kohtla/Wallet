@@ -61,13 +61,32 @@ namespace Wallet_Tests
             Wallet kek = new Wallet(b, mp);
             kek.addMoney("USD", 100);
             kek.addMoney("EUR", 100);
-            int total = kek.getTotalMoney("RUB");
-           // total= b.convert(100, "USD", "RUB");
-            Assert.AreEqual(total, 13000);
-
+            //int total = kek.getTotalMoney("RUB");
+            int total= b.convert(100, "USD", "RUB");
+            Assert.AreEqual(total, 6000);
         }
 
-        
+        [TestMethod]
+        public void Test_Print()
+        {
+
+            //создание объектов заглушки
+            Bank_plub b = new Bank_plub();
+            MoneyPrinter_plub mp = new MoneyPrinter_plub();
+
+            //Объявление кошелька
+            Wallet kek = new Wallet(b, mp);
+
+            //Функция где срабатывает принт
+            kek.addMoney("USD", 100);
+            
+            //сохранение
+            
+            Assert.AreEqual("# - " + "Add" + " - валюта: " + "USD" + ", в количестве: " + "100", mp.printed);
+        }
+
+
+
     }
 }
 

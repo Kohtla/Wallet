@@ -10,8 +10,8 @@ namespace Wallet_test
     {
         public void print(string ops, string curr, string am)
         {
-            System.Diagnostics.Trace.WriteLine("# - " + ops + " - валюта: " + curr + ", в количестве: " + am);
-            
+            Console.WriteLine("# - " + ops + " - валюта: " + curr + ", в количестве: " + am);
+            Console.ReadKey();         
         }
     }
 }
